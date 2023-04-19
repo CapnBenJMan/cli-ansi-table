@@ -1,0 +1,36 @@
+{
+	"name": "cli-ansi-table",
+	"version": "1.0.1",
+	"description": "A CLI table that uses ANSI",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"files": [
+		"lib/**/*"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CapnBenJMan/cli-ansi-table.git"
+	},
+	"keywords": [
+		"Table",
+		"Typescript",
+		"ANSI",
+		"cli"
+	],
+	"author": "CapnBenJMan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/CapnBenJMan/cli-ansi-table/issues"
+	},
+	"homepage": "https://github.com/CapnBenJMan/cli-ansi-table#readme",
+	"devDependencies": {
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"util-multi-array": "^1.0.0"
+	}
+}

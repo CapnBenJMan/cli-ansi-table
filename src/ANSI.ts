@@ -73,6 +73,7 @@ class ProtoANSI extends Function implements ANSIPrime {
 
 interface ANSI extends ANSIPrime {
 	<T extends string | number>(value: T extends ANSIString ? never : T): ANSIString<T>
+	new(): any
 }
 
 export const ANSI = new ProtoANSI() as ANSI

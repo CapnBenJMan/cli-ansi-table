@@ -1,5 +1,5 @@
 import type { keys, Holders, ANSIString } from "./types"
-import { MultiArray } from "util-multi-array"
+import { MultiArray } from "./MultiArray"
 
 type VF<A> =
 	| A[][]

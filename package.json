@@ -3,6 +3,7 @@
 	"version": "1.0.2",
 	"description": "A CLI table that uses ANSI",
 	"main": "lib/index.js",
+	"type": "module",
 	"types": "lib/index.d.ts",
 	"files": [
 		"lib/**/*"
@@ -29,8 +30,5 @@
 	"homepage": "https://github.com/CapnBenJMan/cli-ansi-table#readme",
 	"devDependencies": {
 		"typescript": "^5.0.4"
-	},
-	"dependencies": {
-		"util-multi-array": "^1.0.0"
 	}
 }
